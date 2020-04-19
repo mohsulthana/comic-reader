@@ -1,0 +1,76 @@
+html {
+	height: 100%;
+	width: 100%;
+  margin: 0px;
+	padding: 0px;
+	background-color: #f8f8f8;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-prev {
+  left: -2rem;
+}
+
+.owl-next {
+  right: -27rem;
+}
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#221f1f;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.content-carousel {
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+}
+.owl-carousel {
+	width: calc(100% - 170px);
+}
+.owl-carousel div {
+	width: 100%;
+}
+.owl-carousel .owl-controls .owl-dot {
+	background-size: cover;
+	margin-top: 10px;
+}
+.owl-carousel .owl-dots {
+	position: absolute;
+	top: 0;
+	right: -235px;
+	width: 180px;
+	height: 100%;
+	max-height: 610px;
+	overflow: auto;
+}
+.owl-carousel .owl-dot {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
